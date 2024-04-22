@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesion</title>
+</head>
+<body>
+    <h1>¿Como Iniciar Sesion?</h1>
+    <p1>
+        <ol>
+            <li>Colocar nombre de usuario</li>
+            <li>Colocar contraseña</li>
+            <li>Seleccionar el boton "Enviar"</li>
+        </ol>
+    </p1>
+    <form action="/iniciarsesion.php" method="POST" target="_blank">
+        
+        <label for="text">Usuario:</label>
+        <input  type="text" 
+                name="text" 
+                id="text"
+                placeholder="Nombre de Usuario"
+        />
+        <br>
+        <label for="password">Contraseña:</label>
+        <input  type="password"
+                name="password"
+                id="password"
+                placeholder="Contraseña"
+        />
+        <br>
+        <label for="checkbox">Recordar datos</label>
+        <input type="checkbox"
+                name="checkbox"
+                id="checkbox"
+        />
+        <br>
+        <input type="button"
+                value="Enviar"
+        />
+
+    </form>
+</body>
+</html>

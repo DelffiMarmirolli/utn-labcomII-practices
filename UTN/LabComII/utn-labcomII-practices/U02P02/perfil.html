@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datos Personales</title>
+</head>
+<body>
+    <h1>Estudiantes UTN</h1>
+    <form>
+    <fieldset>
+        <legend>Datos Personales</legend>
+
+        <label for="text">ESTUDIANTE</label>
+        <br>
+        <label for="text">Nombre Completo</label>
+        <input  type="text"
+                name="text"
+                id="text"
+        />
+        <br>
+        <label for="text">Email</label>
+        <input type="text"
+                name="text"
+                id="text"
+        />
+        <br>
+        <label for="number">Edad</label>
+        <input  type="number"
+                name="number"
+                id="number"
+        />
+        <br>
+        <label for="seleccionable">Nacionalidad</label>
+        <select name="seleccionable" id="seleccionable">
+            <option value="Argentina">Argentina</option>
+            <option value="Estadounidense">Estadounidense</option>
+            <option value="China">China</option>
+        </select>
+        <br>
+        <label for="seleccionable">Condicion Laboral</label>
+        <select name="seleccionable" id="seleccionable">
+            <option value="Desempleado">Desempleado</option>
+            <option value="En busqueda laboral">En busqueda laboral</option>
+            <option value="Trabajo part time">Trabajo part time</option>
+            <option value="Trabajo full time">Trabajo full time</option>
+        </select>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>Gustos Personales</legend>
+
+        <label for="text">Gustos Musicales</label>
+        <input type="text"
+                name="text"
+                id="text"
+        />
+        <br>
+        <label for="seleccionable">Comidas Preferidas</label>
+        <select name="seleccionable" id="seleccionable">
+            <option value="Milanesas con papa fritas">Milanesas con papa fritas</option>
+            <option value="Pizza">Pizza</option>
+            <option value="Sushi">Sushi</option>
+        </select>
+        <br>
+        <label for="checkbox">Recordar datos</label>
+        <input  type="checkbox"
+                name="checkbox"
+                id="checkbox"
+        />
+        <br>
+        <input type="button"
+                value="Enviar Formulario"
+        />
+    </fieldset>
+    </form>
+</body>
+</html>
